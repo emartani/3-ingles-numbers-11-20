@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quebra-Cabeça dos Números</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QLVC2VTGZL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QLVC2VTGZL');
+</script>
+
+<body>
+  <h1>🧩 Quebra-Cabeça dos números</h1>
+  <p>Arraste cada peça da parte de baixo com os números e figuras até o nome em inglês correspondente, e descubra qual figura formará!</p>
+
+  <!-- Pontuação -->
+  <div id="score">Pontuação: 0</div>
+
+  <!-- Tabuleiro -->
+  <div class="grid" id="board"></div>
+
+  <!-- Peças -->
+  <div id="pieces"></div>
+
+  <!-- Controles -->
+  <button id="start">▶️ Iniciar</button>
+  <button id="restart">🔄 Reiniciar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
